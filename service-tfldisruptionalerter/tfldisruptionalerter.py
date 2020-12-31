@@ -48,7 +48,7 @@ def set_light_color(color, lifx_mac_addr, lifx_ip_addr):
 if __name__ == '__main__':
     if len(sys.argv) != 5:
         print(f'Usage: python {sys.argv[0]} line_id comma_separated_stations lifx_mac_addr lifx_ip_addr')
-        print(f'eg. python {sys.argv[0]} victoria "Green Park,Hyde Park" a0:01:b2:03:04:05 192.168.0.42')
+        print(f'eg. python {sys.argv[0]} victoria "Green Park,Euston" a0:01:b2:03:04:05 192.168.0.42')
         exit(1)
 
     line_id = sys.argv[1].lower()
